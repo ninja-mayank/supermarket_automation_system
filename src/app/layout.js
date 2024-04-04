@@ -5,12 +5,14 @@ import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
-    <body className="bg-cover bg-[url('https://img.freepik.com/premium-photo/abstract-blur-defocused-supermarket_1339-129329.jpg')] w-full h-full">
-      <Navbar />
-      <Footer />
-      <main>
-        {children}
-      </main>
-    </body>
+    <html>
+      <body className="bg-cover bg-[url('https://img.freepik.com/premium-photo/abstract-blur-defocused-supermarket_1339-129329.jpg')] w-full h-full">
+        <Navbar />
+        <Footer />
+        <main>
+          {children}
+        </main>
+      </body>
+    </html>
   );
 }

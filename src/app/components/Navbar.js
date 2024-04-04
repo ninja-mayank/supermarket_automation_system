@@ -18,8 +18,8 @@ const Nav = () => {
             <Navbar.Link as={Link} href="#">
               About
             </Navbar.Link>
-            <Navbar.Link href="/loginAsManager">Login as Manager</Navbar.Link>
-            <Navbar.Link href="/loginAsEmployee">Login as Employee</Navbar.Link>
+            <Navbar.Link href="/login">Login as Manager</Navbar.Link>
+            <Navbar.Link href="/login">Login as Employee</Navbar.Link>
           </Navbar.Collapse>
         </Navbar>
     );
