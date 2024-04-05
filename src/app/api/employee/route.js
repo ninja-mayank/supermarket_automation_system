@@ -5,7 +5,7 @@ import * as z from 'zod';
 
 const userSchema = z
     .object({
-        username: z.string().min(1,'Username is required').max(100),
+        name: z.string().min(1,'Name is required').max(100),
         email: z.string().min(1,'Email is required').email('Invlid email'),
         password: z
             .string()
