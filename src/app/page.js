@@ -41,10 +41,9 @@ export default async function Home() {
                     <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Welcome To</a>
                     <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Supermarket Automation System</a>
                     <p class="text-sm pb-3">
-                        By <a href="#" class="font-semibold hover:text-gray-800">Author Name</a>, Published on April 5th, 2024
+                        By <a href="#" class="font-semibold hover:text-gray-800">Mayank Sood</a>
                     </p>
                     <a href="#" class="pb-6">Explore the future of shopping with our cutting-edge supermarket automation solutions. Experience seamless shopping like never before.</a>
-                    <a href="#" class="uppercase text-gray-800 hover:text-black">Continue Reading <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
         </section>
