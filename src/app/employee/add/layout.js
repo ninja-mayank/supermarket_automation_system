@@ -1,6 +1,7 @@
 "use client"
 import {signIn} from "next-auth/react"
 import { useRouter } from "next/navigation";
+import React from "react";
 import { useForm,SubmitHandler } from "react-hook-form";
 
 const manager_email = "Mayank@gmail.com"
@@ -82,8 +83,8 @@ const signUp = () => {
                                 )}
                             </div>
                             <div>
-                                <label for="number" className="block mb-2 text-sm font-medium text-gray-900">Price</label>
-                                <input type="number" name="price" id="price" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" required="" {...register("price",{
+                                <label for="text" className="block mb-2 text-sm font-medium text-gray-900">Price</label>
+                                <input type="text" name="price" id="price" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" required="" {...register("price",{
                                     required: "Price is required",
                                 })}/>
                                 {errors.price && (
@@ -91,8 +92,8 @@ const signUp = () => {
                                 )}
                             </div>
                             <div>
-                                <label for="number" className="block mb-2 text-sm font-medium text-gray-900">Quantity</label>
-                                <input type="number" name="quantity" id="quantity" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" required="" {...register("quantity",{
+                                <label for="text" className="block mb-2 text-sm font-medium text-gray-900">Quantity</label>
+                                <input type="text" name="quantity" id="quantity" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" required="" {...register("quantity",{
                                     required: "Quantity is required",
 
                                 })}/>
