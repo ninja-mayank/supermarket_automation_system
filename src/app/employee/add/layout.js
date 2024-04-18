@@ -6,7 +6,7 @@ import { useForm,SubmitHandler } from "react-hook-form";
 
 const manager_email = "Mayank@gmail.com"
 
-const signUp = () => {
+const SignUp = () => {
     const {register , handleSubmit, setError, formState: {errors,isSubmitting}} = useForm();
     const onSubmit = async(data) => {
         try{
@@ -116,4 +116,4 @@ const signUp = () => {
     );
 }
  
-export default signUp;
+export default SignUp;
