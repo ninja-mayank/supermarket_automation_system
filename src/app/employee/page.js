@@ -1,4 +1,5 @@
 const manager = () => {
+    console.log(10)
     return (
         <div>
             <div style={{marginLeft:"17rem", marginTop:"4rem"}} className="text-center">
